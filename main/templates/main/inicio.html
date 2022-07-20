@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8>
+        <meta name="viewport" content="width=device-width, initial-scale">
+        <title>Ejemplo de Plantilla</title>
+    </head>
+    <body>
+        {% for curso in cursos %}
+            {{curso.curso_titulo}}
+            {{curso.curso_contenido}}
+            {{curso.curso_publicado}}
+            <br><br/>
+        {% endfor %}
+    </body>
+</html>
