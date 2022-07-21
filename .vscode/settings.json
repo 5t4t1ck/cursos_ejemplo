@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "cursos",
+            "database": "${workspaceFolder:cursos}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "cursos",
+            "database": "${workspaceFolder:cursos}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "cursos",
+            "database": "${workspaceFolder:cursos}/db.sqlite3"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "django",
+            "database": "${workspaceFolder:cursos}/db.sqlite3"
+        }
+    ]
+}
